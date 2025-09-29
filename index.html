@@ -10,7 +10,13 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
-    <style></style>
+    <style>
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: .75rem;
+    }
+    </style>
   </head>
 
   <body>
@@ -54,11 +60,11 @@
                 More
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Contact Us</a></li>
                 <li><a class="dropdown-item" href="#">Service Areas</a></li>
+                <li><a class="dropdown-item" href="#">International Moving</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">International Moving</a>
+                  <a class="dropdown-item" href="#">FAQs</a>
                 </li>
               </ul>
             </li>
@@ -75,10 +81,94 @@
         </div>
       </div>
     </nav>
+
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom"> 
+      <h1 class="display-4 fw-bold text-body-emphasis">Moving Made Easy</h1> 
+      <div class="col-lg-6 mx-auto"> 
+        <p class="lead mb-4">At Rapid Movers, we make moving fast, stress-free, and reliable. Our team handles everything with speed and care, so you can settle into your new space without the hassle. Whether it’s across the town, states, or country we’re here to move you forward.</p> 
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> 
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Get A Quote</button>
+           <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+           </div> 
+          </div> 
+          <div class="overflow-hidden" style="max-height: 30vh;">
+             <div class="container px-5"> <img src="./moving-team.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> 
+          </div>
+             </div> 
+        </div>
+
+        <div class="container px-4 py-5" id="featured-3"> 
+          <h2 class="pb-2 border-bottom">Why Move With Us?</h2> 
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+            <div class="feature col"> 
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> 
+                <img width="25px" height="25px"  src="./briefcase.svg" alt="briefcase"> 
+              </div> 
+              <h3 class="fs-2 text-body-emphasis">Professional</h3> 
+              <p>Rapid Movers combines speed with professionalism, delivering a seamless moving experience from start to finish. Our trained team treats every move with precision, care, and attention to detail—ensuring your belongings arrive safely and on time</p> 
+              <a href="#" class="icon-link">
+                Get a Quote
+              <img src="./chevron-right.svg" alt="chevron-right"> 
+              </a> 
+            </div> 
+            <div class="feature col"> 
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> 
+                <img width="25px" height="25px" src="./bus-front.svg" alt="bus">
+              </div> 
+              <h3 class="fs-2 text-body-emphasis">Countrywide</h3> 
+              <p>No matter where you’re headed, Rapid Movers has you covered nationwide. With a trusted network and reliable service across the country, we make long-distance moves feel just as smooth as local ones</p> 
+              <a href="#" class="icon-link">
+              Get a Quote
+              <img src="./chevron-right.svg" alt="chevron-right"> 
+              </a> 
+            </div> 
+            <div class="feature col"> 
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> 
+                <img width="25px" height="25px" src="./chat-square-heart.svg" alt="chat-square-heart"> 
+              </div> 
+              <h3 class="fs-2 text-body-emphasis">Personal Touch</h3> 
+              <p>At Rapid Movers, we know every move is more than just boxes—it’s your life. That’s why we add a personal touch to every step, tailoring our services to fit your needs and treating your belongings like our own</p> 
+              <a href="#" class="icon-link">
+              Get a Quote
+              <img src="./chevron-right.svg" alt="chevron-right"> 
+              </a> 
+            </div> 
+          </div> 
+        </div>
+
+
+      <div id="carouselExampleIndicators" class="container carousel slide mb-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./couple.jpg" class="d-block w-100" alt="couple">
+    </div>
+    <div class="carousel-item">
+      <img src="./dog.jpg" class="d-block w-100" alt="dog">
+    </div>
+    <div class="carousel-item">
+      <img src="./family.jpg" class="d-block w-100" alt="family">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
   </body>
 </html>
